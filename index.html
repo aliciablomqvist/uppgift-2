@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="utf-8">
+    <title>Inlämningsuppgift 2: Internetutveckling och Webbhistoria</title>
+    <style>
+      body {
+        background-image: url("cute-background.webp");
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1 style="color: rgb(41, 90, 120)">Webbutveckling: Bedömningsuppgift 2</h1>
+
+    <h2>Frågor och svar om utvecklingen av internet och webbhistoria!</h2>
+    <br>
+    <h3 style="border: 2px solid rgb(92, 81, 121); display: inline">
+      Historia och Utveckling
+    </h3>
+
+    <ol>
+      <li>
+        <strong>
+          När startade utvecklingen av Internet? Vad startade utvecklingen?
+        </strong>
+        <p>
+          Utvecklingen av internet startade under ungefär 1958 med
+          forskningsanstalten ARPA. Detta ledde till skapandet av ARPANET 1969
+          som sägas vara internets föregångare. Dock var tillgången till ARPANET
+          begränsat till de akademiska institutioner och
+          forskiningsoragisationer som hade ett kontrakt med
+          försvarsdepartementet. På grund av begränsningarna skapades flera
+          nätverk för att kunna dela information i större utsträckning.
+          Internets födelse anses vara 1983 i och med att ARPANETS och
+          Försvarsdatanätverket (Defense Data Network) ändrade till det då nya
+          kommunikationsprotokollet TCP/IP vilket ledde till att olika typer av
+          datorer i olika nätverk kunde kommunicera mellan varandra, till
+          skillnad från innan kunde alla nätverk kopplas samman.
+        </p>
+      </li>
+
+      <li>
+        <strong>Vad var Internet tänkt för i början?</strong>
+        <p>
+          Internet skulle ge statliga forskare möjligheten att att dela
+          information med varandra. Det var tänkt för att genom olika tekniker
+          “experimentera” med datanät för att exempelvis kunna hantera avbrott
+          bättre och ge möjligheter att undvika nätverksnoder som var utslagna.
+          Eftersom det utvecklades under kalla kriget sägs det även att internet
+          skapades för att kunna hantera ett kärnvapenangrepp.
+        </p>
+      </li>
+
+      <li>
+        <img
+          src="ARPANET1969.jpeg"
+          alt="ARPANET 1969"
+          width="400"
+          height="250"
+          style="display: inline; float: right"
+       >
+        <strong>Vad är ARPA?</strong>
+        <p>
+          ARPA är USA:s militära forskningsanstalt Advanced Research Projects
+          Agency. Denna federala myndighet heter sen 1972 DARPA (Defense
+          Advanced Research Projects Agency). De är till för att framställa
+          teknologi till militära syften och kom att bli en viktig del av
+          internets utveckling genom deras utvecklande av ARPANET.
+        </p>
+      </li>
+
+      <li>
+        <strong>Vad heter nätet som var grunden till Internet? </strong>
+        <p>
+          Internets föregångare var ARPANET (Advanced Research Projects Agency
+          Network) som skapades 1969 av ARPA (Advanced Research Projects
+          Agency). Det utvecklades under kalla kriget och var det första nätverk
+          som hade fungerande paket växling. Samma år som ARPANET skapades så
+          lyckades man även få kommunikation mellan två datorer vilket var
+          meddelandet “LOG” dock så kraschade den mottagande datorn så det allra
+          första meddelandet blev därmed “LO”.
+        </p>
+      </li>
+
+      <li>
+        <strong>Varför kunde ingen dator vara centraldator?</strong>
+        <p>
+          En centraldator, avser man en dator som skulle hantera all
+          kommunikation mellan de enheter som var anslutna till nätet. Varje
+          enhet var endast kopplad till centraldatorn, den centrala delen av
+          stjärn-topologin (se bild nedan) vilket innebar att om den centrala
+          delen skulle sluta fungera slutar hela nätverket att fungera. Detta
+          ansågs såklart som osäkert och opålitligt vilket ledde till ideer och
+          lösningar som resulterade i andra uppbyggnader av nätverk, exempelvis
+          ARPANET och i sin tur internet som inte är kopplade till en
+          centraldator.
+        </p>
+      </li>
+
+      <li>
+        <img
+          src="networks.svg"
+          alt="Network structures"
+          width="500"
+          height="350"
+          style="display: inline; float: right"
+       >
+        <b
+          >Vad är fördelen med distribuerat nätverk i stället för
+          centraliserat?</b
+        >
+        <p>
+          I ett distribuerat nätverk så är samtliga nätverkstjänster och
+          samordningsuppgifter jämt fördelade mellan servrar över ett nätverk.
+          Till skillnad från ett centraliserat nätverk så används inte en enda
+          central server där all databehandling sker utan delas upp av noder
+          över nätverket. Den största fördelen med ett distribuerat nätverk är
+          dess säkerhet. Påverkar någonting den centrala servern i ett
+          centraliserat nätverk påverkar det hela nätverket. Genom att lagra
+          systeminformationen i ett större antal noder med lika förutsättningar
+          som sker i ett distribuerat nätverk blir stabiliteten och säkerheten
+          mycket säkrare. Det bidrar också till att ett distribuerat nätverk har
+          snabbare hastighet än ett centraliserat eftersom informationen är
+          lagrad på flera ställen. Försöker exempelvis flera personer komma åt
+          en server och den tyngs ned har det distribuera nätverket fördel med
+          sin skalbarhet och kan upprätthålla hastigheten bättre än ett
+          centraliserat nätverk.
+        </p>
+      </li>
+
+      <li>
+        <strong>Vad står WWW för? </strong>
+        <p>
+          WWW står för World Wide Web och är ett informationssystem som
+          möjliggör åtkomst till dokument och andra resurser på internet.
+          Utvecklingen av WWW startade år 1989 av Tim Berners-Lee och hans team
+          på forskningsinstitutet CERN där de skapade protokollet HTTP
+          (HyperText Transfer Protocol) som standardiserade kommunikation mellan
+          servrar och klienter. Denna textbaserade browsern släpptes år 1992.
+        </p>
+      </li>
+
+      <li>
+        <strong>Vad är IP-nummer och hur fungerar de? </strong>
+        <p>
+          IP-nummer står för Internet Protocol är en samling siffror uppbyggd på
+          fyra octet. En IP-adress identifierar/representerar datorer som är
+          anslutnigna till ett nätverk samt DNS-servrar. IP-adresser tilldelas
+          enheter på ethernet nätverk genom en router. Detta sker genom
+          nätverksprotokollet DHCP. Det IP-adresser gör är att de underlättar
+          trafiken mellan olika enheter eftersom alla enheter har en egen unik
+          adress. Det skulle kunna liknas vid en hemadress.
+        </p>
+      </li>
+
+      <li>
+        <strong> Vad är syftet med TCP? </strong>
+        <p>
+          TCP är ett internetprotokoll och står för “transmission control
+          protocol” och hanterar datapaket (mindre enheter av data), hur detta
+          delas upp samt sammanfogas. Man kan säga att det är ett “protokoll med
+          kontroll” eftersom det är en säker hantering av datapaket till
+          skillnad från exempelvis protokollet UDP (User datagram protocol) som
+          är mindre säkert men har en snabbare överföring av datapaket. Man kan
+          säga att syftet med TCP är att organisera data på så sätt att det
+          säkerhetsställer att överföringen av data mellan servern och klient är
+          säker och fullbordad. Att den är så säker beror på att TCP skickar
+          datan bitvis och i mindre mängd än UDP samt har även felkontroll
+          vilket UDP inte har. Båda dessa bidrar till säkrare dataöverföring.
+        </p>
+      </li>
+
+      <li>
+        <strong>När blev Internet populärt för vanliga människor? </strong>
+        <p>
+          Internet populariserades under mitten av 1990-talet genom att
+          kommersiella operatörer i större uträckning gav ut förbindelser åt
+          privatpersoner samt att WWW, alltså World Wide Web hade sitt
+          genomslag.
+        </p>
+      </li>
+
+      <li>
+        <strong> Med vilket protokoll kommunicera man över internet? </strong>
+        <p>
+          Protokollet som används för att kommunicera över internet är TCP/IP
+          som står för den grundläggande kommunikationen på internet. Övriga
+          kommunikationsprotokoll är HTTP som arbetar med att överföra webbsidor
+          på internet genom WWW samt SMTP som arbetar med överföringen av
+          e-post.
+        </p>
+      </li>
+
+      <li>
+        <strong> Vilket språk var föregångaren till HTML? </strong>
+        <p>
+          HTML:s föregångare var SGML som var en standard för skapandet av språk
+          som beskriver strukturen på dokument som sedan ska kunna behandlas av
+          en dator. SGML kan man säga är föregångaren till både HTML och XML och
+          SGML självt har sin grund på IBMs generalized markup language.
+        </p>
+      </li>
+
+      <li>
+        <strong> Vad var Gopher?</strong>
+        <p>
+          Gopher skapades av Mark P. McCahill 1991 och var ett nätverksprotokoll
+          och menysystem som var textbaserat. Gopher användes för att skapa
+          simplare nätverkssidor för sökningar över nätet och används till viss
+          del fortfarande idag.
+        </p>
+      </li>
+
+      <li>
+        <strong>Vilka var de första webbläsarna?</strong>
+        <p>
+          Några av de första webbläsarna var Mosaic (1993) samt Netscape (1994).
+          Andra webbläsare som släpptes under ungefär samma tid var IBM
+          WebExplorer (1994), UdiWWW (1995) och Internet Explorer (1995).
+        </p>
+        <img
+          src="NCSA_Mosaic_Browser_Screenshot.png"
+          alt="Mosaic Browser"
+          width="400"
+          height="250"
+       >
+       <br>
+       <br>
+      </li>
+
+      <li>
+        <strong>När började vanliga personer att använda datorer? </strong>
+        <p>
+          Datorer började användas mer och mer för privatpersoner under
+          1980-talet på grund av att man byggde mindre datorer så kallade
+          persondatorer som var mycket billigare och mer lättanvända för
+          allmänheten än stordatorer som används för större organisationer,
+          varav en större produktion av persondatorer startades och såldes till
+          privatpersoner.
+        </p>
+      </li>
+
+      <li>
+        <strong>Vad används internet till idag? </strong>
+        <p>
+          Internet idag används till mycket olika saker och är mycket brett
+          använt. Några populära användningsområden är kommunikation och åtkomst
+          till information. Kommunikation kan exempelvis vara sociala medier,
+          e-mail och chat rooms och så vidare där människor kan nå andra
+          människor världen över. När det gäller åtkomsten till information
+          finns bred åtkomst till digital information genom många olika
+          applikationer, exempelvis World Wide Web.
+        </p>
+      </li>
+
+      <li>
+        <strong>Vad är en URL?</strong>
+        <p>
+          En URL står för Universal Resource Locator och är en teckensträng i en
+          komplett webbadress för en viss webbsida. Till skillnad från domänen
+          är inte URL en webbsidas namn exempelvis www.hemsida123.se är en URL
+          en speciell sida på webbplatsen, alltså
+          www.hemsida123.se/nyheter/dagens.html till exempel.
+        </p>
+      </li>
+
+      <li>
+        <strong>När kom HTML resp. CSS?</strong>
+        <p>
+          HTML kom i mitten av 1990-talet, cirka 1993 medans CSS kom 1996 men
+          slog igenom tidigt 2000-tal.
+        </p>
+      </li>
+
+      <li>
+        <strong>Vad är syftet med CSS?</strong>
+        <p>
+          Syftet med CSS (Cascading Style Sheet) som är ett språk för
+          presentationsstilen i dokument är att formatera och strukturera
+          dokument i exempelvis typsnitt, färg och storlek på texten. Alltså så
+          anger CSS hur informationen ska angivas samt styling.
+        </p>
+      </li>
+
+      <li>
+        <strong>Vad är XML. Och vad är skillnaden mellan XML och HTML.</strong>
+        <p>
+          XML står för eXtensible Markup Language och är ett märkspråk.
+          Skillnaden mellan XML och HTML är att HTML visar data samt beskriver
+          strukturen på webbsidan medans XML lagrar och överför data.Kort sagt
+          kan man säga att XML står för exempelvis data och tabeller medans HTML
+          står för webbsida dokument.
+        </p>
+      </li>
+
+      <li>
+        <strong
+          >Vem ser till att internet börjar fungera om det “går sönder”?
+        </strong>
+        <img
+          src="satellite.png"
+          alt="Satellitespace"
+          width="300"
+          height="150"
+          style="display: inline; float: right"
+       >
+        <p>
+          Det beror på vart felet ligger. Internet består av flera oberoende
+          nätverk. Alltså kontrolleras och underhålls det av många olika
+          människor, olika företag och regeringar. Beroende på vart felet med
+          internet ligger kan olika åtgärder behöva göras. Om hypotetiskt sätt
+          internet skulle stängas ner skulle många bli inblandade för att lösa
+          problemet. Några sektorer som har stort ansvar över internet är
+          regeringen tillsammans med både offentliga samt privata
+          internetleverantörer även servicetekniker och dylikt skulle bli
+          inblandade
+        </p>
+      </li>
+
+      <li>
+        <strong
+          >Vem uppfann Java? Vad hade JAVA för betydelse för Internet?</strong
+        >
+        <p>
+          Java uppfanns av James Gosling Sun Microsystems under tidigt 90-tal
+          och presenterades 1995. Java har en stark koppling till internet
+          eftersom den fungerar bra i den distribuerade miljön som internet har
+          samt att det var en av de första program koderna som man kunde ladda
+          ner och köra. Java var inte ursprungligen designat efter internet men
+          Sun Microsystem hade ett fokus på nätverksprogrammering, alltså att
+          kunna programmera över ett nätverk, som exempelvis internet. Java är
+          en av de mest använda programspråken idag och används främst på
+          serversidan framför klientsidan.
+        </p>
+      </li>
+
+      <li>
+        <strong>Vad var en Applet (i Java sammanhang)?</strong>
+        <p>
+          Applets, kan man säga står för “litet program” och en Java-applet är
+          små applikationer i Java som tillhandahåller interaktiva funktioner
+          till webbapplikationer. För att det ska räknas som en Java-applet
+          måste den vara skriven i Java samt endast kunna köras i en webbläsare.
+          En Java-applet är alltså ett litet program som med hög hastighet
+          transporteras över webben.
+        </p>
+      </li>
+
+      <li>
+        <strong>Vad är ett serverspråk? Vilka finns?</strong>
+        <p>
+          Ett serverspråk är ett språk som används för att utveckla program som
+          körs av en server, kort sagt ett programmeringsspråk som kan köras på
+          en webbserver. Några exempel på serverspråk är PHP, Java och
+          ASP.NET/C#.
+        </p>
+      </li>
+
+      <li>
+        <strong>Vem skapade PHP?</strong>
+        <p>
+          Skriptspråket PHP (Hypertext Preprocessor) skapades av
+          dansk-kanadensaren Rasmus Lerdorf 1995. PHP används främst på
+          webbservrar i det syfte att förmå internetsajter med innehåll som är
+          dynamsikt. Med dynamiskt innehåll avses innehåll som framställs från
+          databas eller formulärdata från besökare på sidan. PHP jämförs ofta
+          med ASP och JSP.
+        </p>
+      </li>
+
+      <li>
+        <strong>Vad betyder ASP resp. JSP?</strong>
+        <p>
+          ASP står för Active Server Pages och skapades av Microsoft. Det är ett
+          språk som används på serversidan inom webbutveckling för att
+          implementera dynamiska webbsidor. JSP står för Java Server Pages och
+          skapades av Sun Microsystems. Det är ett skriptspråk på serversidan
+          som stöttar utvecklare att skapa dynamiska webbsidor genom exempelvis
+          HTML och XML. JSP använder sig av Java-programmeringsspråk. Både ASP
+          och JSP liknar varandra eftersom de både är skriftspråk på serversidan
+          men har också några skillnader, exempelvis är JSP plattformsberoende
+          medans ASP inte är det. JSP har även större säkerhet än ASP samt ett
+          minnesläckageskydd. När det käller kompilering av kod är det endas
+          JSP-kod som kompileras eftersom ASP-kod använder VB-script (Microsoft
+          Visual Basic Scripting Edition) och är därmed ett tolkat språk.
+        </p>
+      </li>
+
+      <li>
+        <b
+          >Vad är Javascript? Vad är skillnaden på Javascript och
+          serverspråken?</b
+        >
+        <p>
+          Javascript är ett OOP-skriptspråk (objektorienterad programmering) som
+          gavs ut 1995 av Brendan Eich. Javascript laddas ned samt körs på
+          webbläsaren med hemsidan. Det är en av de centralaste delarna på WWW
+          tillsammans med HTML och CSS.
+        </p>
+      </li>
+
+      <li>
+        <strong>Vem skapade facebook? När skedde det? </strong>
+        <p>
+          <img
+            src="download.png"
+            alt="Facebook logo"
+            width="60"
+            height="60"
+            style="display: inline; float: right"
+         >Amerikanen Mark Zuckerberg utvecklade Facebook under sin tid på
+          Harvard University och släppte plattformen år 2004.
+        </p>
+      </li>
+
+      <li>
+        <strong>Vilka skapade Skype? När kom Skype? </strong>
+        <p>
+          <img
+            src="download-1.png"
+            alt="Skype logo"
+            width="60"
+            height="60"
+            style="display: inline; float: right"
+         >Svenska Niklas Zennström och danske Janus Friis skapade Skype. Det
+          släpptes sensommaren 2003.
+        </p>
+      </li>
+
+      <li>
+        <strong>Vilka skapade Spotify? När kom Spotify?</strong>
+        <p>
+          <img
+            src="spotifylogo.png"
+            alt="Spotify logo"
+            width="60"
+            height="60"
+            style="display: inline; float: right"
+         >
+          Spotify skapades av svenskarna Daniel Ek och Martin Lorentzon 2006 men
+          lanserades två år senare 2008.
+        </p>
+      </li>
+
+      <li>
+        <strong>Vad innebär copyleft?</strong>
+        <p>
+          Copyleft innebär fri licens. Detta avser material som inte har någon
+          upphovsrätt, alltså att den som har upphovsrätten av exempelvis en
+          bild eller dylikt beviljar fri användning, distribuering och
+          modifiering av verket dock under de förutsättningarna att de
+          varianterna/kopiorna ska gälla under samma licens när de sprids.
+        </p>
+      </li>
+
+      <li>
+        <strong>Vilka copyleft-licenser finns det?</strong>
+        <p>
+          Några notabla copyleft-licenser är GNU General Public License (GPL)
+          som var den första copyleft-licensen som används för allmänt bruk.
+          Mozilla Public License som utvecklas och underhålls av Mozilla och
+          angår öppen källkod. Free Art License som ger rätt att fritt kunna
+          distribuera, kopiera och transformera kreativa verk. Creative Commons
+          share-alike licensvillkor som innebär att om en kopia eller en
+          anpassning görs av exempelvis ett verk ska släppas under samma licens
+          som originalet. Alltså att man “delar lika” på licensen.
+        </p>
+
+        <img
+          src="copyright-symbol.png"
+          alt="Copyright symbol"
+          width="100"
+          height="100"
+          style="display: inline; float: right"
+       >
+      </li>
+
+      <li>
+        <strong>Vad har Copyleft för bild som symbol.</strong>
+        <p>
+          Bilden föreställer ett C vänd mot vänster med en cirkel omkring sig.
+        </p>
+      </li>
+
+      <li>
+        <strong>Vad innebär Creative commons?</strong>
+        <p>
+          Creative Commons (CC) står för en icke-kommersiell organisation som
+          startades 2001 av juridikprofessorn Lawrence Lessig, Hal Abelson samt
+          Eric Eldred och stöds av Center for the Public Domain. Creative
+          Commons har utvecklat CC copyleft-licenser med det syfte att stötta
+          fria kulturella verk samt öppet innehåll. Detta sker genom att
+          exempelvis tillhandahålla upphovsmän passande licenser för deras verk.
+          En del av deras licenser är Copyleft vilket ger allmänheten större
+          möjligheter och rätt att använda eller modifiera och så vidare än
+          exempelvis upphovsrätten (Copyright) eller liknande licenser.
+        </p>
+      </li>
+
+      <li>
+        <strong>Förklara Creative commons symbolerna?</strong> <br>
+        <table style="border: 2px solid rgb(92, 81, 121)">
+          <tr>
+            <th style="border: 1px solid rgb(92, 81, 121)">Symbol</th>
+            <th style="border: 1px solid rgb(92, 81, 121)">Namn</th>
+            <th style="border: 1px solid rgb(92, 81, 121)">Betydelse</th>
+          </tr>
+          <tr>
+            <td style="border: 1px solid rgb(92, 81, 121)">
+              <img src="CCby.png" alt="CC:by" width="100" height="100">
+            </td>
+            <td style="border: 1px solid rgb(92, 81, 121)">BY</td>
+            <th style="border: 1px solid rgb(92, 81, 121)">
+              Erkännande. Ger tillåtelse att sprida material om upphovsmannen
+              anges.
+            </th>
+          </tr>
+          <tr>
+            <td style="border: 1px solid rgb(92, 81, 121)">
+              <img src="CCnc.png" alt="CC:by" width="100" height="100">
+            </td>
+            <td style="border: 1px solid rgb(92, 81, 121)">NC</td>
+            <th style="border: 1px solid rgb(92, 81, 121)">
+              Icke kommersiell. Ingen tillåtelse att användas i kommersiella
+              syften.
+            </th>
+          </tr>
+          <tr>
+            <td style="border: 1px solid rgb(92, 81, 121)">
+              <img src="CCnd.png" alt="CC:by" width="100" height="100">
+            </td>
+            <td style="border: 1px solid rgb(92, 81, 121)">ND</td>
+            <th style="border: 1px solid rgb(92, 81, 121)">
+              Inga bearbetningar. Inga bearbetningar av verket är tillåtna.
+            </th>
+          </tr>
+          <tr>
+            <td style="border: 1px solid rgb(92, 81, 121)">
+              <img src="CCsa.png" alt="CC:by" width="100" height="100">
+            </td>
+            <td style="border: 1px solid rgb(92, 81, 121)">SA</td>
+            <th style="border: 1px solid rgb(92, 81, 121)">
+              Dela lika. Versioner av verket/materialet som har bearbetas får
+              spridas med den förutsättningen att de endast sprids under samma
+              licens som originalet.
+            </th>
+          </tr>
+        </table>
+
+        <p>
+          Det finns också kombinationer av dessa. Exempelvis by-nc som blir en
+          blandning av erkännande och icke kommersiell, alltså att upphovsmannen
+          måste anges och verket får inte brukas i ett kommersiellt syfte.
+          Lägger man till ännu en, exempelvis by-nc-nd vilket skulle bli en
+          blandning av de två ovanstående samt inga bearbetningar.
+        </p>
+      </li>
+
+      <li>
+        <strong>Vad är GDPR förkortning för?</strong>
+        <p>
+          GDPR står för står för general data protection regulation eller
+          dataskyddsförordningen. Detta är en bestämmelse inom Europeiska
+          unionen som avser hur personuppgifter ska behandlas och hur öppet
+          detta får hanteras. Detta rör exempelvis företag som hanterar
+          personuppgifter. Syftet med GDPR är att få mer och säkrare skydd för
+          människor vad hantering av personuppgifter, inom ett företag kan detta
+          avse information om kunder och så vidare.
+        </p>
+      </li>
+
+      <li>
+        <strong>När kom GDPR?</strong>
+        <p>GDPR publicerades den 27 april 2016.</p>
+      </li>
+
+      <li>
+        <strong
+          >Vilka är de stora skillnaderna mellan GDPR och föregångaren
+          PUL?</strong
+        >
+        <p>
+          De största skillnaderna mellan GDPR och dess föregångare PUL
+          (personuppgiftslagen) är framförallt personuppgiftsbehnadling och
+          syftet med det. I och med GDPR så ska företag kunna visa syftet med de
+          personuppgifter som samlas in, alltså vad de ska ha dem till. PUL har
+          mer ett fokus på vad som händer eller görs med personuppgifterna när
+          den redan är registrerad. En annan viktig skillnad är att ett
+          dataskyddsombud är nödvändigt för företag, organisationer eller
+          myndigheter som har hand om personuppgifter enligt GDPR, någon som
+          ansvarar speciellt för dataskyddsregler. Detta var inte aktuellt under
+          lagen om PUL. En anmälan till datainspektionen inom 72 kom att bli
+          relevant i och med GDPR ifall säkerhetsproblem skulle inträffa,
+          exempelvis dataintrång där personuppgifter kan komma till skada. Då
+          bör även de personerna som överlämnat sin information upplysas om
+          detta. Till skillnad från PUL så räcker det inte längre att företaget
+          bara meddelar att uppgifter har registrerats utan nu har man rätt till
+          att få ut uppgifter som vi själva lämnat och kunna föra över dessa
+          uppgifter till en annan verksamhet. Detta brukar kallas för
+          dataportabilitet. Skulle de va så att de regler som GDPR har satt upp
+          inte följs kan detta resultera i sanktionsavgift, vilket är en
+          förändring PUL.
+        </p>
+      </li>
+
+      <li>
+        <strong>Vad säjer GDPR om att lagra personuppgifter?</strong>
+        <p>
+          <i
+            >Det finns några förhållningssätt enligt GDPR när det gäller att
+            lagra personuppgifter:</i
+          >
+        </p>
+
+        <ul>
+          <li>Ändamålet för lagringen. Varför lagras dem?</li>
+          <li>
+            En rättslig grund. Vad för rättslig grund stödjer
+            företaget/organisationen osv för att kunna samla in uppgifter?
+          </li>
+          <li>
+            De registrerade måste informeras om varför uppgifter samlas in.
+          </li>
+          <li>
+            Rätt personuppgifter. Finns det uppgifter som samlas in som inte är
+            nödvändiga?
+          </li>
+          <li>
+            Personuppgifterna ska skyddas. Har obligatoriska säkerhetsåtgärder
+            eller riskanalys genomförts?
+          </li>
+          <li>
+            Uppgifter som inte längre behövs ska raderas om de inte längre
+            behövs för ändamålet.
+          </li>
+          <li>
+            Det ska synas att det går rätt till. Personuppgift Behandlingar och
+            beslut och dylikt ska dokumenteras och riktlinjer inom
+            organisationen angående personuppgifter och dataskydd ska finnas
+          </li>
+        </ul>
+        <br>
+      </li>
+
+      <li>
+        <strong
+          >Om man hittar en bild på webben. Hur får man använda den
+          bilden?</strong
+        >
+        <p>
+          Det första att man måste tänka på är i vilket syfte bilden ska
+          användas. Det gäller det att ha koll på eventuell upphovsrätt,
+          linciens samt upphovsman. Bilder kan få användas i privat bruk men
+          används de i ett kommersiellt syfte anses det som olagligt. Man måste
+          alltså ha tillåtelse att använda bilden. Vissa bilder får användas men
+          kanske inte hur som helst, exempelvis Creative Commons dela lika
+          villkor där bilden kan användas men inte utan att samma regler gäller
+          för kopian som originalet.
+        </p>
+      </li>
+    </ol>
+
+    <br>
+    <p>
+      <em><ins>Källförtecking:</ins></em>
+    </p>
+
+    <ul>
+      <li>
+        <a href="https://www.britannica.com/technology/computer"
+          >Britannica: Computer</a
+        >
+      </li>
+      <li>
+        <a href="https://www.britannica.com/technology/Internet"
+          >Britannica: Internet</a
+        >
+      </li>
+      <li><a href="https://it-ord.idg.se/ordlistan/ ">IT-ord: Ordlistan</a></li>
+      <li>
+        <a href="https://en.wikipedia.org/wiki/Copyleft "
+          >Wikipedia: Copyleft</a
+        >
+      </li>
+      <li>
+        <a href="http://sv.wikipedia.org/wiki/Creative_Commons"
+          >Wikipedia: Creative Commons</a
+        >
+      </li>
+      <li>
+        <a
+          href="https://www.advania.se/blogg/vilka-ar-skillnaderna-mellan-personuppgiftslagen-pul-och-gdpr"
+          >Advania: Skillnaderna mellan PUL och GDPR</a
+        >
+      </li>
+      <li>
+        <a href="https://www.rule.se/gdpr/personuppgifter-och-gdpr/"
+          >Rule: GDPR</a
+        >
+      </li>
+      <li>
+        <a href="https://www.theserverside.com/definition/Java"
+          >The Serverside: Definition of Java</a
+        >
+      </li>
+    </ul>
+  </body>
+</html>
